@@ -57,10 +57,10 @@ public class questionsDAO {
                 questions q = new questions(
                         rs.getInt("exam_id"),
                         rs.getString("question"),
-                        rs.getString("optionA"),
-                        rs.getString("optionB"),
-                        rs.getString("optionC"),
-                        rs.getString("optionD"),
+                        rs.getString("option_a"),
+                        rs.getString("option_b"),
+                        rs.getString("option_c"),
+                        rs.getString("option_d"),
                         rs.getString("correct_option").charAt(0),
                         rs.getInt("marks")
                 );
